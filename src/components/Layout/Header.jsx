@@ -4,13 +4,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
     return (
-        <div
-            style={{
-                display: 'flex',
-                justifyContent: 'space-between',
-                width: '100%'
-            }}
-        >
+        <div className="Header">
             <div>
                 <Link to="/" style={{ color: '#E2F0F7', paddingRight: '75px', textDecoration: 'none' }}>
                     Home

@@ -5,14 +5,24 @@ import LandingPage from "./components/pages/landingPage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Header } from "./components/Layout/Header";
 import { Footer } from "./components/Layout/Footer";
+import Sidebar from "./components/Layout/Sidebar";
 
 function App() {
   return (
     <Router>
       <React.StrictMode>
-        <Header />
-        <LandingPage />
-        <Footer />
+        <div className="app-container">
+          <div className="header">
+            <Header />
+          </div>
+          <div className="content-container">
+            <Sidebar />
+            <LandingPage />
+          </div>
+          <div className="footer">
+            <Footer />
+          </div>
+        </div>
       </React.StrictMode>
     </Router>
   );
