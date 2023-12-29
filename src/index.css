@@ -13,20 +13,6 @@ code {
     monospace;
 }
 
-.content-container{
-  display: flex;
-}
-
-.sidebar{
-  flex: 0 0 15%;
-  border: 1px solid black;
-}
-
-.currentPage {
-  flex: 1;
-  border: 1px solid black;
-}
-
 .app-container{
   height: 100%;
   width: 100%;
@@ -34,9 +20,30 @@ code {
   flex-direction: column;
 }
 
-.Header{
-  display: 'flex';
-  justify-content: space-between;
-  width: '100%';
+.content-container{
+  display: flex;
+}
+
+.currentPage {
+  flex: 1;
   border: 1px solid black;
+}
+
+.Header{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid black;
+}
+
+/* start of sidebar section */
+
+.sidebar{
+  flex: 0 0 15%;
+  border: 1px solid black;
+  transition: width 0.3s ease;
+}
+
+.sidebar-tab{
+  color: aqua;
 }

@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Header } from "./components/Layout/Header";
 import { Footer } from "./components/Layout/Footer";
 import Sidebar from "./components/Layout/Sidebar";
+import CurrentContent from "./components/Layout/currentContentContainer";
 
 function App() {
   return (
@@ -15,9 +16,8 @@ function App() {
           <div className="header">
             <Header />
           </div>
-          <div className="content-container">
-            <Sidebar />
-            <LandingPage />
+          <div>
+            <CurrentContent />
           </div>
           <div className="footer">
             <Footer />
