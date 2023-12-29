@@ -42,8 +42,16 @@ code {
   flex: 0 0 15%;
   border: 1px solid black;
   transition: width 0.3s ease;
+  overflow: hidden;
 }
 
-.sidebar-tab{
+.sidebar-tab {
   color: aqua;
+  cursor: pointer;
+  position: absolute;
+  top: 15%;
+}
+
+.collapsed{
+  flex: 0 0 0;
 }

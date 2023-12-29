@@ -1,11 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import LandingPage from "./components/pages/landingPage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Header } from "./components/Layout/Header";
 import { Footer } from "./components/Layout/Footer";
-import Sidebar from "./components/Layout/Sidebar";
 import CurrentContent from "./components/Layout/currentContentContainer";
 
 function App() {
