@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -20,6 +21,16 @@ code {
   flex-direction: column;
 }
 
+.Header{
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid black;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+
 .content-container{
   display: flex;
 }
@@ -29,12 +40,7 @@ code {
   border: 1px solid black;
 }
 
-.Header{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  border: 1px solid black;
-}
+
 
 /* start of sidebar section */
 
@@ -55,3 +61,5 @@ code {
 .collapsed{
   flex: 0 0 0;
 }
+
+/* end of sidebar section */

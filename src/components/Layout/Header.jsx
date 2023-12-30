@@ -6,7 +6,7 @@ function Header() {
     return (
         <div className="Header">
             <div>
-                <Link to="/" style={{ color: '#E2F0F7', paddingRight: '75px', textDecoration: 'none' }}>
+                <Link to="/" style={{ color: '#2085b8', paddingRight: '75px', textDecoration: 'none' }}>
                     Home
                 </Link>
             </div>
