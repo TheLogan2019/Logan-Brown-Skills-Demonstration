@@ -1,10 +1,11 @@
-import React, {useState} from "react";
+import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router} from "react-router-dom";
 import { Header } from "./components/Layout/Header";
 import { Footer } from "./components/Layout/Footer";
-import CurrentContent from "./components/Layout/currentContentContainer";
+import { AppRouter } from "./components/common/AppRouter";
+
 
 function App() {
   return (
@@ -15,9 +16,7 @@ function App() {
             <Header />
           </div>
           <div>
-            <Routes>
-              <Route path ="/" element={<CurrentContent />} />
-            </Routes>
+            <AppRouter />
           </div>
           <div className="footer">
             <Footer />
