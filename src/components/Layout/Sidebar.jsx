@@ -23,6 +23,42 @@ const Sidebar = () => {
             <li>
               <Link to="/">Home</Link>
             </li>
+            <li>
+              <Link to="/Profile">Profile</Link>
+            </li>
+            <li>
+              <Link to="/ResponseDemo">ResponseDemo</Link>
+            </li>
+            <li>
+              <Link to="/Functions">Functions</Link>
+            </li>
+            <li>
+              <Link to="/REST&Requests">REST</Link>
+            </li>
+            <li>
+              <Link to="/React">React</Link>
+            </li>
+            <li>
+              <Link to="/Forms">Forms</Link>
+            </li>
+            <li>
+              <Link to="/State">State</Link>
+            </li>
+            <li>
+              <Link to="/Authentication">Authentication</Link>
+            </li>
+            <li>
+              <Link to="/Hooks">Hooks</Link>
+            </li>
+            <li>
+              <Link to="/Express">Express</Link>
+            </li>
+            <li>
+              <Link to="/SQL">SQL</Link>
+            </li>
+            <li>
+              <Link to="/KeyConcepts">Key Concepts</Link>
+            </li>
           </ul>
         </>
       )}
