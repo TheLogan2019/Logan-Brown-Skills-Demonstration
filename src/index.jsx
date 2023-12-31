@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import { BrowserRouter as Router} from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import { Header } from "./components/Layout/Header";
 import { Footer } from "./components/Layout/Footer";
 import { AppRouter } from "./components/common/AppRouter";
@@ -9,7 +9,7 @@ import { AppRouter } from "./components/common/AppRouter";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <React.StrictMode>
         <div className="app-container">
           <div>
@@ -18,12 +18,12 @@ function App() {
           <div>
             <AppRouter />
           </div>
-          <div className="footer">
+          <div>
             <Footer />
           </div>
         </div>
       </React.StrictMode>
-    </Router>
+    </BrowserRouter>
   );
 }
 

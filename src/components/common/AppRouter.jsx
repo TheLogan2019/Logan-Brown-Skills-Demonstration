@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { BrowserRouter as Outlet, Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Sidebar from "../Layout/Sidebar"
 import LandingPage from "../pages/landingPage";
 import Resume from "../pages/resume";
 import Logging from "../pages/Logging";
+import NoPageFound from "../pages/NoPageFound";
 
 
 function AppRouter() {
@@ -27,6 +28,7 @@ function AppRouter() {
           <Route path ="/" element={<LandingPage />} />
           <Route path ="/Resume" element={<Resume />} />
           <Route path ="/Logging" element={<Logging />} />
+          <Route path="*" element={<NoPageFound />} />
           </Routes>
         </div>
     </div>
