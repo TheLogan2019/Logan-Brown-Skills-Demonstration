@@ -6,13 +6,13 @@ function Header() {
     return (
         <div className="Header">
             <div>
-                <Link to="/" style={{ color: '#2085b8', paddingRight: '75px', textDecoration: 'none' }}>
+                <Link to="/" style={{ color: '#000000', paddingRight: '75px', textDecoration: 'none' }}>
                     Home
                 </Link>
-                <Link to="/Resume" style={{ color: '#2085b8', paddingRight: '75px', textDecoration: 'none' }}>
+                <Link to="/Resume" style={{ color: '#000000', paddingRight: '75px', textDecoration: 'none' }}>
                     Resume
                 </Link>
-                <Link to="/Logging" style={{ color: '#2085b8', paddingRight: '75px', textDecoration: 'none' }}>
+                <Link to="/Logging" style={{ color: '#000000', paddingRight: '75px', textDecoration: 'none' }}>
                     Login/Logout
                 </Link>
             </div>

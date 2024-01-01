@@ -11,7 +11,7 @@ const Sidebar = () => {
   return (
     <div className={`sidebar ${collapsed ? 'collapsed' : ''}`}>
       {collapsed ? (
-        <div className="sidebar-tab" onClick={toggleSidebar}>
+        <div className="sidebar-arrow" onClick={toggleSidebar}>
           &#9654; {/* Right arrow icon or any other icon you prefer */}
         </div>
       ) : (
