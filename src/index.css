@@ -102,29 +102,47 @@ code {
 /*start of landing page section */
 
 .landing-main-container{
+  display: flex;
   width: 100%;
   height: 100%;
 }
 
+/*start of left container*/
+
 .landing-left-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
   width: 50%;
   height: 100%;
-  float: left;
   box-sizing: border-box;
   border: 1px solid black;
 }
 
-.landing-right-container{
-  width: 50%;
-  height: 100%;
-  float: right;
-  box-sizing: border-box;
-  border: 1px solid black
-}
 /*"box-sizing: border-box" allows containers to count padding and border in the total width */
 
 .author-photo {
+  max-width: 100%;
+  height: 100%;
   transform: scale(0.2);
 }
+
+.About {
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+/*end of left container*/
+/*start of right container*/
+
+.landing-right-container{
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+/*end of right container*/
 
 /*end of landing page section */
