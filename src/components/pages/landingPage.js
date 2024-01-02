@@ -1,8 +1,16 @@
+import React from "react";
+import AboutMePhoto from "../pictures/AboutMePhoto.png";
+
 function LandingPage() {
   return (
     <div className="landing-main-container">
       <div className="landing-left-container">
-        <p>placeholder</p>
+        <p>About Me</p>
+        <img
+          className="author-photo"
+          src={AboutMePhoto}
+          alt="VeryHandsomeAuthorPhoto"
+        />
       </div>
       <div className="landing-right-container">
         <p>placeholder</p>

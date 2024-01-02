@@ -12,15 +12,9 @@ function App() {
     <BrowserRouter>
       <React.StrictMode>
         <div className="app-container">
-          <div>
             <Header />
-          </div>
-          <div>
             <AppRouter />
-          </div>
-          <div>
             <Footer />
-          </div>
         </div>
       </React.StrictMode>
     </BrowserRouter>

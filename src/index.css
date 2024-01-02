@@ -1,4 +1,4 @@
-body {
+html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -15,8 +15,7 @@ code {
 }
 
 .app-container{
-  height: 100%;
-  width: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   background: linear-gradient(to left, #3a3a3a, #a3a3a3)
@@ -45,6 +44,7 @@ code {
 
 .content-container{
   display: flex;
+  flex: 1;
 }
 
 .currentPage {
@@ -99,7 +99,7 @@ code {
 
 /* end of sidebar section */
 
-/*landing page styles */
+/*start of landing page section */
 
 .landing-main-container{
   width: 100%;
@@ -111,7 +111,7 @@ code {
   height: 100%;
   float: left;
   box-sizing: border-box;
-  border: 1px solid black
+  border: 1px solid black;
 }
 
 .landing-right-container{
@@ -121,5 +121,10 @@ code {
   box-sizing: border-box;
   border: 1px solid black
 }
-
 /*"box-sizing: border-box" allows containers to count padding and border in the total width */
+
+.author-photo {
+  transform: scale(0.2);
+}
+
+/*end of landing page section */
