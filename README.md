@@ -14,7 +14,7 @@ Login Functionality: Create an account and log in to unlock additional pages on 
 
 ## Getting started
 
-The application is not currently in production, so it needs to be cloned to access it properly. After cloning the repository, navigate to it, run `npm install` to install dependencies, and then type `npm start` in the terminal to launch it in your browser.
+This application is currently in production and has not been deployed, so it needs to be cloned to access it properly. After cloning the repository, navigate to it, run `npm install` to install dependencies, and then type `npm start` in the terminal to launch it in your browser.
 
 ## Feedback
 
