@@ -122,13 +122,11 @@ code {
 /*"box-sizing: border-box" allows containers to count padding and border in the total width */
 
 .author-photo {
-  transform: scale(0.2);
-  max-width: 80%;
-  margin: 0%;
-  padding: 0%;
+  width: 40%;
+  margin-top: 10%;
 }
 
-.About {
+.AboutL {
   margin: 0%;
   padding: 0%;
 }
@@ -146,10 +144,16 @@ code {
   border: 1px solid black;
 }
 
+.AboutR {
+  padding-top: 5%
+}
+
 .Project-Paragraph{
   padding-left: 10%;
   padding-right: 10%;
+  text-align: center;
 }
+
 
 /*end of right container*/
 
