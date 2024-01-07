@@ -14,7 +14,7 @@ const ResumeButton = () => {
       // Create a download link
       const downloadLink = document.createElement("a");
       downloadLink.href = window.URL.createObjectURL(blob);
-      downloadLink.download = "LoganBrownResume.pdf"; // Specify the desired file name
+      downloadLink.download = "LoganBrownResume.pdf";
 
       // Append the link to the document and trigger the click event
       document.body.appendChild(downloadLink);
