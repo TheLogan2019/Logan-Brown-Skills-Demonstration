@@ -10,7 +10,27 @@ function LandingPage() {
           src={AboutMePhoto}
           alt="VeryHandsomeAuthorPhoto"
         />
-        <h2 className="AboutL">About Me</h2>
+        <h2 className="AboutL">About Me:</h2>
+        <p className="Me-Paragraph">
+          Hi! My name is Logan. I am currently an IT professional with a passion
+          for web development based in kansas. Over the past four years, I've
+          immersed myself in the dynamic world of information technology, honing
+          my skills in various roles. For 3 years, I worked as an Incident
+          Technology Support Specialist for the Bureau of Indian Affairs in my
+          home town. Being that that was a seasonal position, I spent the off
+          season pursuing other IT roles while simultaniously supporting the BIA
+          with tasks such as prescribed burns.
+        </p>
+        <p className="Me-Paragraph">
+          In the past year, I've been dedicated to a full-time help desk
+          position while simultaniously pursuing my education at BloomTech, from
+          which I recently graduated. My journey has equipped me with a robust
+          set of skills and knowledge in web development, making me eager to
+          contribute to innovative projects. As I look ahead, I'm hopeful and
+          excited about the prospect of expanding my experiences with a new role
+          in the near future. I invite you to explore my site and discover more
+          about my professional journey. Enjoy your visit!
+        </p>
       </div>
       <div className="landing-right-container">
         <h2 className="AboutR">About this Project:</h2>

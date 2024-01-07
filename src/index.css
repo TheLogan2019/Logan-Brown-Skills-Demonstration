@@ -116,7 +116,6 @@ code {
   width: 50%;
   height: 100%;
   box-sizing: border-box;
-  border: 1px solid black;
 }
 
 /*"box-sizing: border-box" allows containers to count padding and border in the total width */
@@ -131,6 +130,12 @@ code {
   padding: 0%;
 }
 
+.Me-Paragraph{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
 /*end of left container*/
 /*start of right container*/
 
@@ -141,7 +146,6 @@ code {
   width: 50%;
   height: 100%;
   box-sizing: border-box;
-  border: 1px solid black;
 }
 
 .AboutR {
